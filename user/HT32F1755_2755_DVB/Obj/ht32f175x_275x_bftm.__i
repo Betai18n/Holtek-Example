@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I\ -I..\library\HT32F175x_275x_Driver\inc -I..\library\CMSIS\Include -I..\library\Device\Holtek\HT32F175x_275x\Include -I..\utilities -I..\user -I..\system\sys -I..\system\delay -I..\system\usart -I..\hardware\KEY -I..\hardware\LED -I..\hardware\TIMER -I..\hardware\LCD -I..\hardware\TOUCH -I..\hardware\24CXX -I..\hardware\IIC -I..\hardware\24bitAD -I..\hardware\Disp -I..\hardware\TN9 -I..\hardware\RTC -I..\hardware\FAN -I..\hardware\BUZZER -I..\hardware\EX
+-I C:\Keil5\ARM\RV31\INC
+-I C:\Keil5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+-I C:\Keil5\ARM\Inc\Holtek\HT32F175x_275x
+-DUSE_HT32_DRIVER -DUSE_HT32F1755_2755_DVB -o .\ht32f1755_2755_dvb\obj\ht32f175x_275x_bftm.o --omf_browse .\ht32f1755_2755_dvb\obj\ht32f175x_275x_bftm.crf --depend .\ht32f1755_2755_dvb\obj\ht32f175x_275x_bftm.d "..\library\HT32F175x_275x_Driver\src\ht32f175x_275x_bftm.c"

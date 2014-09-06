@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"
+-I C:\Keil5\ARM\RV31\INC
+-I C:\Keil5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+-I C:\Keil5\ARM\Inc\Holtek\HT32F175x_275x
+--list .\ht32f1755_2755_dvb\list\startup_ht32f175x_275x.lst --xref -o .\ht32f1755_2755_dvb\obj\startup_ht32f175x_275x.o --depend .\ht32f1755_2755_dvb\obj\startup_ht32f175x_275x.d "..\library\Device\Holtek\HT32F175x_275x\Source\ARM\startup_ht32f175x_275x.s"
